@@ -1,0 +1,56 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.pricing-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+
+.pricing-box {
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+.package-name {
+  margin: 20px auto;
+}
+
+.price {
+  padding: 20px 10px;
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
+
+p {
+  margin: 20px auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 7px 45px;
+  border-radius: 30px;
+  background-color: darkblue;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.features {
+  text-align: left;
+  padding: 15px 45px;
+}
